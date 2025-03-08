@@ -14,4 +14,4 @@ To run currency-converter app :
 Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/70a5ac1cb1176acc53ab6840961dfcd107e62241/currency-converter/index.html
 
 To run numberGuessing game :
-Enter tihs URL : https://htmlpreview.github.io/?
+Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/c8ee23366729dea8af450544c9e6c0b5ba4ead63/numberGuessing/index.html

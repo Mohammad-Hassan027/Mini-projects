@@ -8,7 +8,7 @@ To run Todo-list app:
 Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/d4c829d76dd35476dfe96c28f2c7809425641028/Todo-list/index.html
 
 To run Calculator app :
-Enter tihs URL : https://htmlpreview.github.io/?
+Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/db4d32921e2210ef515a0eff4024a1301545904f/calculator/index.html
 
 To run currency-converter app :
 Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/70a5ac1cb1176acc53ab6840961dfcd107e62241/currency-converter/index.html

@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d88c9a;
+}
+
+.container {
+  text-align: center;
+}
+
+#guide {
+  max-width: 750px;
+  font-size: 1.5rem;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 190;
+}
+
+#input-number {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+button {
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #f2d0a9;
+}
+
+.msg {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  color: aliceblue;
+}
+
+.number-guess {
+  font-size: 1.4rem;
+}
+.previous-guess {
+  font-size: 1.4rem;
+}
+
+.incorrect-guess {
+  background-color: red;
+}
+
+.correct-guess {
+  background-color: green;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}

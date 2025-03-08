@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87BAAB;
+}
+
+nav {
+    height: 110px;
+    background-color: #512D38;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px 0;
+    color: #FFE9F3;
+    cursor:default;
+}
+
+a , .search-bar , .search-btn {
+    font-size: 1.5rem;
+}
+
+.search-bar , .search-btn {
+    border-radius: 1rem;
+    border: none;
+    padding: 5px;
+    margin: 16px 10px;
+}
+
+.search {
+    margin-right: 10px;
+}
+
+.anchor {
+    margin: 20px 25px;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFE9F3;
+}
+
+.search-btn {
+    padding: 6px;
+    background-color: #B27092;
+    cursor: pointer;
+}
+
+.add-todo {
+    max-height: fit-content;
+    padding: 7px;
+    background-color: #C51E3A;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 18px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.todos-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    min-width: 99vh;
+}
+
+.todo-item {
+    max-width: 26vh;
+    border-radius: 1rem;
+    margin: 3vmin;
+    padding: 1vmin;
+    background-color: #F4BFDB;
+}
+
+.delete , .add-checkbox {
+    margin: 6px 0 0 6px;
+    padding: 5px;
+    max-height: fit-content;
+    background-color: red;
+    color: #FFE9F3;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.add-checkbox {
+    background-color: #FB607F;
+}
+
+.dele-taskBox {
+    display: flex;
+}
+
+.task-box {
+    padding: 1vmin;
+}
+
+.task {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.check-box {
+    margin-top: 3.4px;
+}

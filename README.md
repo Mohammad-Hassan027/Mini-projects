@@ -2,10 +2,10 @@ To run Rock-paper-scissor game :
 Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/ff5004664977142875a6c9224ea8bd30f2cf03d4/Rock-paper-scissor/index.html
 
 To run Tic-tac-toe game :
-Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/817f28b385787b4f248bff0962c59908233c48b7/Tic-tac-toe/index.html
+Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/28c55aff4c43fcdc707bf9c16a1a98dcb159d351/Tic-tac-toe/index.html
 
 To run Todo-list app:
-Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/d4c829d76dd35476dfe96c28f2c7809425641028/Todo-list/index.html
+Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/28c55aff4c43fcdc707bf9c16a1a98dcb159d351/Todo-list/index.html
 
 To run Calculator app :
 Enter tihs URL : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/db4d32921e2210ef515a0eff4024a1301545904f/calculator/index.html

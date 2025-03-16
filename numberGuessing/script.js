@@ -22,7 +22,8 @@ const reset = () => {
   RandomNum = Math.floor(Math.random() * 100 + 1);
   input.value = "";
   msg.innerText = "";
-  previousGuess.innerText = "Previous guesses :";
+  previousGuess.innerText = "Previous guesses : ";
+  remainGuesses.innerText = "Remaining guesses : 6";
   submitBtn.classList.remove("disabled");
   input.classList.remove("disabled");
   manageClass(msg, "hidden", "correct-guess", "incorrect-guess");
@@ -30,7 +31,7 @@ const reset = () => {
 
 const updateGuesses = () => {
   remainGuesses.innerText = `Remaining guesses : ${6 - guess}`;
-}
+};
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();

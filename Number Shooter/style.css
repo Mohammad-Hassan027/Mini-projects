@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+html,
+body,.container {
+  height: 100%;
+  width: 100%;
+}
+
+.score-board {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #333;
+  color: white;
+  align-content: center;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid {
+  height: calc(100% - 5rem);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.cells {
+  margin: 1rem;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.game-over {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.game-over button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: chartreuse;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .cells {
+    margin: 0.3rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .score-board {
+    font-size: 1.2rem;
+  }
+  .cells {
+    margin: 0.25rem;
+    height: 3.8rem;
+    width: 3.8rem;
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 369px) {
+  .score-board {
+    font-size: 1.1rem;
+  }
+  .game-over {
+    font-size: 2rem;
+  }
+  .cells {
+    margin: 0.2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1rem;
+  }
+}

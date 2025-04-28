@@ -78,7 +78,7 @@ function flip(e) {
     console.log(cardChosen)
     console.log(e.target)
     if (cardChosen.length == 2) {
-        checkMatch()
+        setTimeout(checkMatch , 600)
     }
 }
 
@@ -86,23 +86,12 @@ const checkMatch = () => {
     const cards = document.querySelectorAll('img')
     const optionOneCard = cardChosenId[0]
     const optionTwoCard = cardChosenId[1]
-    const delayForIncorrect = () => {
-        setTimeout(() => {
-            cards[optionOneCard].setAttribute('src', './image/card.png')
-            cards[optionTwoCard].setAttribute('src', './image/card.png')
-        }, 800)
-    }
-    const delayForcorrect = () => {
-        setTimeout(() => {
-            cards[optionOneCard].setAttribute('src', './image/blank.png')
-            cards[optionTwoCard].setAttribute('src', './image/blank.png')
-        }, 600)
-    }
-    
+
     if (cardChosen[0] === cardChosen[1]) {
-        msgDisplay.classList.remove('win','lose')
+        msgDisplay.classList.remove('win', 'lose')
         msgDisplay.textContent = 'You chosen correct match!'
-        delayForcorrect()
+        cards[optionOneCard].setAttribute('src', './image/blank.png')
+        cards[optionTwoCard].setAttribute('src', './image/blank.png')
         cards[optionOneCard].removeEventListener('mousedown', flip)
         cards[optionTwoCard].removeEventListener('mousedown', flip)
         cardWon.push(cards[optionOneCard])
@@ -110,19 +99,18 @@ const checkMatch = () => {
         resultDisplay.textContent = Score
         msgDisplay.classList.add('win')
     } else {
-        msgDisplay.classList.remove('win','lose')
+        msgDisplay.classList.remove('win', 'lose')
         msgDisplay.textContent = 'Try again, incorrect match!'
-        delayForIncorrect()
+        cards[optionOneCard].setAttribute('src', './image/card.png')
+        cards[optionTwoCard].setAttribute('src', './image/card.png')
         msgDisplay.classList.add('lose')
         console.log(cardChosenId)
     }
     if (cardWon.length === cardArray.length / 2) {
         msgDisplay.textContent = 'Congratulations, You won!'
-        msgDisplay.classList.remove('win','lose')
+        msgDisplay.classList.remove('win', 'lose')
         msgDisplay.classList.add('congrats')
     }
-    clearTimeout(delayForcorrect)
-    clearTimeout(delayForIncorrect)
     cardChosen = []
     cardChosenId = []
 }

@@ -20,7 +20,7 @@ To run Memory game :
 Click here : https://htmlpreview.github.io/?
 
 To run Whac-a-mole game :
-Click here : https://htmlpreview.github.io/?
+Click here : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/40f5d25354893167687a67f0c1bc0bf902a59bd1/whac-a-mole/index.html
 
 To run Breakout game :
 Click here : https://htmlpreview.github.io/?

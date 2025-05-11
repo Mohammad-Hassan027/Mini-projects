@@ -17,7 +17,7 @@ To run numberGuessing game :
 Click here : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/c8ee23366729dea8af450544c9e6c0b5ba4ead63/numberGuessing/index.html
 
 To run Memory game :
-Click here : https://htmlpreview.github.io/?
+Click here : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/e8f155c3de0979539dd29d11c5bb3d038c387b52/Memory%20Game/index.html
 
 To run Whac-a-mole game :
 Click here : https://htmlpreview.github.io/?https://github.com/Mohammad-Hassan027/Mini-projects/blob/40f5d25354893167687a67f0c1bc0bf902a59bd1/whac-a-mole/index.html
